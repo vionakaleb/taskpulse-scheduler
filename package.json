@@ -1,0 +1,13 @@
+{
+  "name": "taskpulse-scheduler",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker to keep TaskPulse bot awake on Render",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
